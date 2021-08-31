@@ -16,11 +16,11 @@
     padding: 300px;
     font-size: 60px;
   }
-  .block1{
+  /* .block1{
     background-color: #fd9;
-  }
+  } */
   .form input{
-    width: 700px;
+    width: 100%;
     height: 50px;
     background-color: #ffd47d;
     transition: background-color 0.5s;
@@ -48,6 +48,7 @@
   .footer{
     background-image: url(img/header_bg.png);
     height: 300px;
+    margin-top: 1700px;
   }
   .cofe_machine{
     margin-left: 700px;
@@ -105,12 +106,34 @@
   .car{
     height: 310px;
   }
+  .car h3{
+    color: #964900;
+  }
+  .header h4{
+    float: right;
+    margin-right: 50px;
+    margin-top: -50px;
+  }
+  .block1{
+    border: 3px solid #ff7b00;
+  }
+  li{
+    font-size: 20px;
+  }
+  .block3{
+    margin-top: -320px;
+    padding: -100px;
+  }
+  .block4{
+    border: 3px solid #ff7b00;
+  }
 </style>
   </head>
   <body>
 <div class="header">
   <br>
 <center> <a href="index.html"><img src="logo.png" alt=""></a> </center>
+<h4>Ежедневно с 7:00 до 22:00,<br> без выходных и праздников </h4>
   <h1>Ремонт кофемашин, <br>кофеварок</h1>
   <a href="#form"> <button type="button" class="bt" name="button">Отправить заказ</button> </a>
   <img src="img/cofe_machine.png" class="cofe_machine" alt="">
@@ -243,8 +266,8 @@
 
   </div> -->
 <div class="container">
-  <div class="block">
-    <h3>Ремонт кофемашин, кофеварок:</h3>
+  <div class="block block1">
+    <h3>Принципы нашей работы</h3>
     <hr>
     <p>
       Работаем ежедневно с 7:00 до 22:00, без выходных и праздников<br><br>
@@ -297,7 +320,7 @@
     </div>
   </div>
 
-  <div class="block">
+  <div class="block block4">
     <h3>Исправим проблему:</h3>
     <hr>
     <p>
@@ -318,41 +341,47 @@
   </div>
 
   <div class="block">
-    <h3>ОСНОВНЫЕ УСЛУГИ</h3>
+    <h3>Основные услуги</h3>
     <hr>
     <p>
-      Ремонт платы кофемашины<br>
-            Замена датчиков кофемашины<br>
-            Ремонт помпы кофемашины<br>
-            Замена пароблока кофемашины<br>
-            Замена мультиклапана кофемашины<br>
-            Замена трубок кофемашины<br>
-            Ремонт дренажного клапана кофемашины<br>
-            Чистка кофемашины<br>
-            Декальцинация кофемашины<br>
-            Ремонт заварочного устройства кофемашины<br>
-            Чистка заварного устройства<br>
-            Ремонт дренажа кофемашины<br>
-            Капитальный ремонт<br>
-            Замена расходников кофемашины <br>
-
+      <ul>
+        <li>Ремонт платы кофемашины</li>
+              <li>Замена датчиков кофемашины</li>
+              <li>Ремонт помпы кофемашины</li>
+              <li>Замена пароблока кофемашины</li>
+              <li>Замена мультиклапана кофемашины</li>
+              <li>Замена трубок кофемашины</li>
+              <li>Ремонт дренажного клапана кофемашины</li>
+              <li>Чистка кофемашины</li>
+              <li>Декальцинация кофемашины</li>
+              <li>Ремонт заварочного устройства кофемашины</li>
+              <li>Чистка заварного устройства</li>
+              <li>Ремонт дренажа кофемашины</li>
+              <li>Капитальный ремонт</li>
+              <li>Замена расходников кофемашины </li>
+      </ul>
     </p>
+  </div>
+
+  <div class="block block3">
+    <div class="div_form my-5">
+      <center><form class="form" id="form" action="index.html" method="post">
+        <h2>Отправте нам заказ</h2>
+        <input type="text" class="my-2" name="" placeholder="Ваше имя"><br>
+        <input type="tel" class="my-2" name="" placeholder="Ваш номер телефона"><br>
+        <input type="submit" class="" name="" value="Отпрвить заказ"><br>
+      </form></center>
+    </div>
   </div>
 </div>
 
-  <!-- <div class="div_form my-5">
-    <center><form class="form" id="form" action="index.html" method="post">
-      <h2>Отправте нам заказ</h2>
-      <input type="text" class="my-2" name="" placeholder="Ваше имя"><br>
-      <input type="tel" class="my-2" name="" placeholder="Ваш номер телефона"><br>
-      <input type="submit" class="" name="" value="Отпрвить заказ"><br>
-    </form></center>
-  </div> -->
+
+
 </div>
 
-<!-- <div class="footer">
+<div class="footer">
   <br>
 <center> <a href="index.html"><img src="logo.png" alt=""></a> </center>
-</div> -->
+</div>
   </body>
 </html>
